@@ -1,0 +1,139 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Microsoft YaHei",Arial,Helvetica,sans-serif;
+	background-color: #dedede;
+}
+/*头部*/
+.first-header {
+	padding: 10px 30px;
+	background-color: #4d4d4d;
+}
+nav {
+	float: right;
+	display: inline-block;
+}
+nav li {
+	display: inline-block;
+}
+nav li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+/*文章*/
+article {
+	margin: 30px 20px;
+	padding: 20px;
+	border: 1px solid #cdcdcd;
+	background-color: #fff;
+}
+article header {
+	color: #7b7b7b;
+}
+article header h2 {
+	color: #000;
+}
+article p {
+	line-height: 1.5em;
+}
+
+ul.none-style {
+	list-style-type: none;
+}
+
+/*图片*/
+img {
+	width: 100px;
+	margin-top: 10px;
+}
+figure {
+	width: 120px;
+	padding: 10px;
+	text-align: center;	
+	border: 1px solid #cdcdcd;
+}
+
+/*表格*/
+table {
+	border: 1px solid #cdcdcd;
+	border-collapse: collapse;
+}
+thead {	
+	text-align: left;
+	color: #fff;
+	background-color: #000;
+}
+tfoot {
+	background-color: #ccc;
+}
+td.long-td {
+	width: 500px;
+}
+td.short-td {
+	width: 200px;
+}
+th, td {
+	padding: 5px 10px;
+}
+
+/*表单*/
+form {
+	width: 800px;
+	margin: 0 auto;
+	overflow: auto;
+}
+
+
+
+label{
+	width: 250px;
+	float: left;
+	text-align: right;
+	clear: both;
+}
+form input, select, textarea {
+	
+	float: left;
+}
+form p {
+	clear: both;
+	margin-left: 250px;
+}
+.extra {
+	float: left;
+	text-align: left;
+	margin-left: 202px;
+}
+.extra input {
+	float: none;
+}
+
+
+
+
+textarea {
+	width: 300px;
+	height: 100px;
+}
+.btn {
+	width: 800px;
+	margin: 0 auto;
+	height: 50px;
+	border-radius: 10px;
+	color: #fff;
+	background-color: #3355d0;
+	clear: both;
+}
+p.grey {
+	display: block;
+	color: #cdcdcd;
+}
+
+/*页脚*/
+footer {
+	padding: 20px;
+	text-align: center;
+	color: #fff;
+	background-color: #4d4d4d;
+}
