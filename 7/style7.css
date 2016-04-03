@@ -1,0 +1,445 @@
+.right {
+	float: right;
+}
+.left {
+	float: left;
+}
+.clearfix:before,
+.clearfix:after {
+	content: "";
+	display: table;
+}
+.clearfix:after {
+	clear: both;
+}
+.clearfix { zoom: 1; }
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Microsoft YaHei";
+}
+main {
+	width: 1280px;
+	margin: 0 auto;
+}
+button {
+	font-family: "Microsoft YaHei";
+}
+header.main {
+	height: 30px;
+	padding: 13px 59px;
+}
+header.main img {
+	width: 30px;
+}
+header.main span {
+	padding-left: 11px;
+	font-size: 21px;
+	font-family: "SimHei";
+	color: #454545;
+	vertical-align: 8px;
+}
+header.main ul {
+	margin: 0;
+	text-align: center;
+}
+header.main ul li {
+	display: inline-block;
+	width: 65px;
+	margin-right: 30px;
+	padding-bottom: 20px; 
+}
+header.main ul li:hover, 
+header.main ul li:active {
+	border-bottom: 4px solid #e74f4d;
+}
+header.main ul li a {
+	font-size: 12px; 
+	color: #b5b7bb;
+	text-decoration: none;
+}
+.login {
+	font-size: 12px;
+	color: #e74f4d;
+	border: 0;
+	background: unset;
+}
+.login:before {
+	content: url(7-2.png);
+	font-size: 14px;
+}
+
+/*focus-------------------------------*/
+.focus {
+	z-index: -10;
+	position: relative;
+	width: 1280px;
+	height: 690px;
+	color: #fff;
+	background-image: url(7-3.png);
+}
+.focus div {
+	position: absolute;
+	top: 225px;
+	left: 115px;
+}
+.focus h1 {
+	margin: 0;
+	padding: 0;
+	font-size: 60px;
+	font-weight: normal;
+	line-height: 1;
+}
+.focus h2 {
+	margin: 0;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	padding: 0;
+	padding-left: 10px;
+	font-size: 21px;
+	font-weight: normal;
+	line-height: 1.5;
+}
+.start {
+	width: 330px;
+	height: 65px;
+	margin-top: 50px;
+	margin-left: 10px;
+	font-size: 29px;
+	letter-spacing: 5px;
+	color: #fff;
+	border: 0;
+	background: #e8504f;
+}
+
+/*summary-------------------------------------*/
+.summary {
+	padding-top: 45px;
+	padding-bottom: 40px;
+	padding-left: 30px; 
+}
+.summary div {
+	display: inline-block;
+	width: 300px;
+	text-align: center;
+}
+.summary p {
+	width: 180px;
+	margin: 40px 0;
+	padding-left: 60px; 
+	padding-right: 70px;
+	font-size: 10px;
+	color: #878787;
+	border-right: solid 3px #ababab;
+}
+.summary div:nth-of-type(4) p {
+	border-right: 0;
+}
+
+/*else---------------------------------------*/
+.else {
+	height: 200px;
+	padding: 80px 190px;
+	text-align: center;
+	background-color: #ededed;
+}
+.else h1 {
+	font-size: 54px;
+	font-family: "SimHei";
+	color: #a1a1a1;
+}
+
+/*find---------------------------------------*/
+.find {
+	height: 290px;
+	padding-top: 50px;
+	color: #fff;
+	text-align: center;
+	background-image: url(7-8.png);
+}
+.find hr {
+	width: 30px;
+	height: 2px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	border: 0;
+	background-color: #fff;
+}
+.find h2 {
+	margin: 0;
+	font-size: 21px;
+	font-weight: normal;
+}
+.find h3 {
+	margin-bottom: 50px;
+	font-size: 12px;
+	font-weight: normal;
+}
+.city {
+	width: 235px;
+	height: 35px;
+	margin-right: 30px;
+}
+.search {
+	width: 205px;
+	height: 35px;
+	padding-left: 30px;
+	font-size: 14px;
+	letter-spacing: 25px;
+	color: #fff;
+	border: 0;
+	background: #bf4e48;
+}
+/*activity-------------------------------------*/
+.activity {
+	height: 390px;
+	padding: 100px 45px 110px 50px;
+	background-color: #e8e8e8;
+}
+.activity div {
+	display: inline-block;
+	margin-right: 35px;
+	text-align: center;
+}
+.activity div:nth-of-type(2) p {
+	font-size: 25px;
+}
+.activity div:nth-of-type(2) span {
+	font-size: 14px;
+	line-height: 1;
+}
+.activity img {
+	padding: 10px;
+	border: 1px solid #e3e3e3;
+	background-color: #fff;
+}
+.activity p {
+	margin: 10px;
+	font-size: 18px;
+	line-height: 1;
+}
+.activity span {
+	color: #b8b8b8;
+}
+
+/*part-------------------------------------*/
+.part img {
+	vertical-align: top
+}
+.part div {
+	display: inline-block;
+	width: 278px;
+	height: 290px;
+	padding: 125px 70px 120px 70px;
+	text-align: center;
+}
+.part div:nth-of-type(2) {
+
+}
+.part div:nth-of-type(3) {
+	margin-top: 1px;
+	padding-top: 150px; /*为什么这个会连带第四个Div.跟着中线变化？*/
+	height: 251px;
+	color: #fff;
+	background-color: #e74f4d;
+}
+.part div:nth-of-type(4) {
+	height: 251px;
+	margin-right: 5px;
+}
+.part div.part-pic1 {
+	width: 712px;
+	height: 435px;
+	padding-top: 130px;
+	padding-bottom: 0;
+	background-image: url(7-13.png);
+}
+.part div.part-pic1 p {
+	margin: 0;
+	margin-top: 10px;
+	color: #fff;
+	line-height: 1;
+	text-align: center;/*只给div加为何不行*/
+}
+.part div.part-pic1 p:nth-of-type(1) {
+	font-size: 50px;
+}
+.part div.part-pic1 p:nth-of-type(2) {
+	margin-bottom: 40px;
+	font-size: 158px;
+	line-height: 0.8;
+}
+.part div.part-pic1 p:nth-of-type(3) {
+	margin-bottom: 20px;
+	font-size: 21px;
+}
+.part div.part-pic1 p:nth-of-type(4) {
+	font-size: 21px;
+	text-indent: -1.5em;
+}
+
+.part h3 {
+	font-size: 21px;
+	font-weight: normal;
+}
+.part p {
+	color: #aaa;
+	line-height: 2;
+	text-align: justify;
+}
+.part hr {
+	width: 30px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+.part button {
+	width: 105px;
+	height: 30px;
+	color: #e4656e;
+	border: 2px solid #e4656e;
+	background: unset;
+}
+.part div:nth-of-type(3) button {
+	width: 168px;
+	height: 40px;
+	color: #fff;
+	border-color: #fff;
+}
+.part div:nth-of-type(4) button {
+	width: 168px;
+	height: 40px;
+}
+
+/*voluteer------------------------------*/
+.volunteer {
+	padding: 0 130px 165px 130px;
+	color: #b7b7b7;
+}
+.volunteer header {
+	text-align: center;	
+}
+.volunteer hr {
+	width: 40px;
+	height: 2px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: 0;
+	background-color: #e44f4b;
+}
+.volunteer h2 {
+	margin-top: 100px;
+	color: #333;
+	font-size: 21px;
+	font-weight: normal;
+}
+.volunteer h3 {
+	margin-bottom: 100px;
+	font-size: 12px;
+	font-weight: normal;
+}
+.volunteer div {
+	width: 300px;
+	padding-right: 70px;
+}
+.volunteer div section h4 {
+	margin: 0;
+	margin-top: 15px;
+	margin-bottom: 25px;
+	font-size: 14px;
+	color: #7c7a7b;
+	clear: right;
+}
+.volunteer div section p {
+	margin: 0;
+	font-size: 12px;
+	color: #9a9a9a;
+}
+.volunteer div section span {
+	float: right;
+}
+.volunteer div section span:before {
+	content: url(7-15.png);
+}
+form {
+	width: 630px;
+}
+form input {
+	width: 265px;
+	margin-left: 15px;
+	margin-bottom: 15px;	
+	padding: 15px;
+	border: 0;
+	background-color: #ededef;
+}
+form textarea {
+	width: 605px;
+	height: 120px;	
+	margin-left: 15px;
+	margin-bottom: 15px;
+	border: 0;
+	background-color: #ededef;
+	resize: none;
+}
+form .button {
+	width: 609px;
+}
+/*connect-----------------------------*/
+.connect {
+	height: 270px;
+	padding-top: 90px;
+	text-align: center;
+	color: #fff;
+	background-color: #33363f;
+}
+.connect h3 {
+	margin-bottom: 10px;
+	font-size: 21px;
+	font-weight: normal;
+}
+.connect h4 {
+	margin-top: 0;
+	margin-bottom: 30px;
+	font-size: 12px;
+	font-weight: normal;
+}
+.connect input {
+	width: 430px;
+	height: 40px;
+}
+input.submit {
+	width: 80px;
+	height: 44px;
+	margin-bottom: 35px;
+	font-size: 15px;
+	border: 0;
+	color: #fff;
+	background-color: #73737b;
+}
+.connect a {
+	display: inline-block;
+	margin-left: 25px;
+}
+
+/*footer----------------------------------*/
+footer {
+	height: 65px;
+	color: #fff;
+	background-color: #30303a;
+}
+footer p {
+	display: inline-block;
+	width: 300px;
+	margin: 0;
+	font-size: 12px;
+}
+footer p:nth-of-type(1) {
+	padding: 35px 0 0 75px;
+}
+footer p:nth-of-type(2) {
+	float: right;
+	padding: 35px 75px 0 0;
+}
+footer a {
+	text-decoration: none;
+	color: #fff;
+}
