@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>task6</title>
+	<link rel="stylesheet" type="text/css" href="style6.css">
+</head>
+<body>
+	<header>
+		<div><span>ife.baidu.com</span></div>
+		<span>2016.03</span>
+	</header>
+
+	<div class="title1">
+		<p>ABOUT<br/>TECHNOLOGE</p>
+		<p>About technologe about technologe about technologe</p>
+		<p>700</p>
+		<p>3.2</p>
+		<p>css</p>
+		<p>csscsscsscsscss</p>
+	</div>
+
+	<div class="pic1">
+		<div class="left"></div>
+		<div class="right"></div>
+	</div>
+
+	<div class="main clearfix">
+		<section class="what left">
+			<h3>what</h3>
+			<p>一个名叫“阿贾克斯”的屌丝男在名为“客户端”的学校上学，为了追女神，下狠心，借了高利贷给女神买Mac. 结果，期限已到，要债的找上门，没办法，只能向身在“服务器端”的父母要钱。但是，要钱是要一定的过程和时间的。他必须想办法向要债的表明，钱正在过来的过程中，否则，可能要债的会认为你在忽悠，直接使大招——”Ctrl+W”，瞬间灭了你，眼不见心不烦。如何告知钱正在过来的过程中呢？</p>
+		</section>
+
+		<section class="when left">
+			<h3>when</h3>
+			<p>转转转的告知方法优点在于动作大，效果显著。不足在于动作大，实现成本比较高。考虑到IE6~IE8的兼容，如是否撑开按钮高度，是否影响域后面文字的对齐（vertical-align的解析不规范是最麻烦的）等，或者再套标签背景图片式定位等，这种提示一般只能在某些特定的重要的场合使用使用，要想一个模子走到底，此方法严重不推荐。</p>
+		</section>
+
+		<section class="how left">
+			<h3>how</h3>
+			<p>若按钮为提示对象，我的做法是：在按钮默认文字后面加上“中…”</p><br/>
+			<p>what---------<span>40%</span></p>
+			<p>what---------<span>30%</span></p>
+			<p>what---------<span>30%</span></p>
+		</section>
+	</div>
+	
+	<aside>
+		<img src="6-3.png" />
+		<p><span>前端技术</span><span>前端技术前端技术</span></p>
+		<div>
+			<ul>
+				<li><p>好饱好饱好饱好饱好饱...........................<span>好饱</span></p></li>
+				<li><p>好饱好饱好饱好饱...............................<span>好饱</span></p></li>
+				<li><p>好饱好饱好饱好饱好饱好饱.......................<span>好饱</span></p></li>
+			</ul>
+			<div><p>0</p><span>ONE TWO<br/>THREE FOUR FIVE</span><br/><span>hello world hello world hello world</span></div>
+			<blockquote>world hello world hello world hello world hello world hello world hello world hello world hello world hello world hello world</blockquote>
+		</div>
+	</aside>
+
+	<article class="tech">
+		
+		<header>
+			<h2><span>THE</span> TECHNOLOGE OF FRONT</h2>
+			<h2>前端技术领域</h2>
+		</header>
+		
+		<span>然</span><img src="6-2.png" /><p>而，文字描述虽然具意，但毕竟是静态的，一般情况下，我们的请求时间都是很短的，数秒已经是极限，因此，这种提示完全够用，多半恰到好处。然而，总会遇到堵车的情况——父母没有网银，需要去银行汇款，结果公交车遇到极端主义者汽油烧车，逃命要紧，哪里赶得上汇钱给儿子呢！但是讨债的那边不知道啊，“钱汇来中…”后等了半个小时，没有其他信息，说不定就等不及，又一次使大招——”Ctrl+W”，瞬间灭了你，眼不见心不烦。但是，如果信息是动态的，每10分钟自动发过来条类似短信，要债的估计会耐心等的。考虑到现实，父母老人家顾着逃命，还要时不时发个信息过来，有点难为他们老人家了……在Gmail中，一个请求如果时间很长，它会在中途有如下提示：“仍在加载中…”。从“加载中…”到“仍在加载中…”的提示文字变化，个人觉得会大大较少减小撕票的可能性。这种nice体验的交互我在手机项目中是经常使用的（考虑到经常会信号不好）。PC上也是可以类似处理，例如，请求（假设超时设置30秒）发送后可以设定一个5秒的定时器，如果请求有返回，清除定时器；如果没有返回，按钮文字修改为“仍在处理中…”；再过5秒还没有返回，提示可以是“网络较慢，耐心等待…”等……然后继续5秒~~我们搞这些名堂的目的都是要把“请求中…”提示从纯静态向动态方向靠拢。昨天在折腾某某东西的时候（具体什么已经不记得了），不知为何，脑子突然冒出，诶，是不是可以渐进使用CSS3 animation，让提示最后的三个点"..."以动画形式呈现，纯字符形式的动画，面向视网膜屏幕，同时无请求，对于25%Chrome浏览器用户以及其他众多移动设备浏览器用户，岂不是细节体验上的一次提升。</p>
+	</article>
+	
+	<footer>
+		<span>ife.baidu.com</span>
+	</footer>
+</body>
+</html>

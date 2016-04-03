@@ -1,0 +1,315 @@
+.left { float: left; }
+.right { float: right; }
+.clearfix:before,
+.clearfix:after {
+	content: "";
+	display: table;
+}
+.clearfix:after {
+	clear: both;
+}
+.clearfix { zoom: 1; }
+body {
+	margin: 0;
+	padding: 0 0 0 50px;
+	width: 980px;
+	height: 1386px;
+	font-family: "Microsoft YaHei",Arial,Helvetica,sans-serif;
+}
+/*头部*/
+body > header {
+	position: relative;
+	height: 50px;
+	margin-bottom: 40px;
+	border-width: 203px;
+	border-bottom: 2px solid #938e9c;
+}
+body > header div {
+	display: table-cell; /*使得文字位于底部*/
+	vertical-align: bottom;
+	width: 100px;
+	height: 50px;
+	font-size: 12px;
+	color: #fff;
+	background-color: #d45d5c;
+}
+body > header > span {
+	position: absolute; /*没用float因为顶不上去分割线*/
+	right: 0;
+	bottom: 0;
+	font-size: 12px;
+	color: #d45d5c;
+}
+
+/**/
+div.title1 {
+	float: right;
+	padding-top: 10px;
+	border-top: 2px solid #cc8091;
+}
+div.title1 p {
+	margin: 0;
+	padding: 0;
+}
+div.title1 p:nth-of-type(1) {
+	font-size: 24px;
+	text-decoration: underline;
+}
+div.title1 p:nth-of-type(2) {
+	margin-bottom: 10px;
+	font-size: 12px;
+	font-family: "KaiTi";
+	color: #676767;
+}
+div.title1 p:nth-of-type(3) {	
+	font-style: oblique;
+	font-size: 116px;
+	color: #75b86b;
+}
+div.title1 p:nth-of-type(4) {
+	float: left;
+	font-size: 55px;
+	color: #cc8091;
+}
+div.title1 p:nth-of-type(5) {
+	padding-top: 20px;
+	font-size: 21px;
+	color: #cc8091;
+}
+div.title1 p:nth-of-type(6) {
+	font-size: 12px;
+	color: #cc8091;
+}
+/**/
+div.pic1 {
+	width: 641px;
+	height: 301px;
+	background: #cdcdcd;
+}
+div.pic1 div {
+	width: 191px;
+	height: 301px;
+	background: #cc8091;
+	opacity: 0.3;
+}
+
+/*main*/
+div.main section {
+	margin-right: 25px;
+	margin-bottom: 50px;
+}
+div.main section h3 {
+	margin-bottom: 12px;
+	font-size: 16px;
+	font-weight: bold;
+	text-decoration: underline;
+	color: #418c59;
+}
+div.main section p {
+	font-size: 12px;
+	color: #231815;
+}
+div.main section.what p {
+	font-size: 12px;
+	font-family: "SimSun";
+	color: #767777;
+}
+div.main section.what {
+	width: 230px;
+}
+div.main section.when {
+	width: 200px;
+}
+div.main section.when h3 {
+	color: #d2994f;
+}
+div.main section.how {
+	width: 130px;
+}
+div.main section.how h3 {
+	color: #cc7680;
+}
+div.main section.how p {
+	margin: 5px 0; 
+}
+div.main section.how span{
+	font-style: oblique;
+	font-size: 12px;
+	color: #cd4a48;
+	opacity: 0.7;
+}
+/*article*/
+article.tech {
+	width: 415px;
+	margin-right: 458px; 
+}
+article.tech header {
+/*	position: relative;*/
+
+	width: 415px;
+	font-family: "SimHei";
+	color: #11456b;
+	border-bottom: solid 2px #11456b;
+}
+article.tech header h2:nth-of-type(1) {
+	margin: 0; 
+	font-size: 42px;
+	line-height: 0.9;
+}
+article.tech header h2:nth-of-type(2) {
+	margin: 12px 0; 
+	font-size: 33px;
+}
+article.tech header h2 span {
+	font-style: oblique;
+	font-size: 72px;
+	font-family: "SimHei";
+	color: #f5e327;
+}
+article.tech > p {
+	width: 415px;
+	margin-top: 16px;
+	font-size: 12px;
+	font-family: "SimSun";
+	color: #767777;
+	line-height: 1.4;
+}
+article.tech > span {
+	float: left;
+	margin-right: 10px;
+	font-size: 70px;
+	color: #f5e327;
+}
+article.tech img {
+	clear: left;
+	float: right;
+	margin: 10px 20px;
+}
+
+
+/*aside*/
+aside {
+	position: relative;
+	float: right;
+	width: 458px;
+}
+aside > p {
+	position: absolute;
+	top: 180px;
+	width: 458px;
+	height: 61px;
+	background-color: #000;
+	opacity: 0.5;
+}
+aside > p span:nth-of-type(1) {
+	position: absolute;
+	top: 10px;
+	margin-left: 40px;
+	padding-left: 15px;
+	font-size: 26px;
+	line-height: 44px;
+	color: #fff;
+	border-left: solid 3px #72b16a;
+}
+aside > p span:nth-of-type(2) {
+	position: absolute;
+	top: 33px;
+	left: 170px;
+	font-style: oblique;
+/*	font-stretch: 140%;*/
+	font-size: 12px;
+	color: #72b16a;
+}
+aside > div {
+	width: 459px;
+	height: 298px;
+	margin-top: 20px;
+	padding-top: 10px;
+	background-color: #eeedd6;
+}
+aside div ul {
+	margin-bottom: 24px;
+	list-style-image: url(list-img.png);
+}
+aside div ul li {	
+	margin: 20px 0;
+}
+aside div ul li p {
+	font-family: "SimSun";
+	color: #5a5b5b;
+}
+aside div ul li span {
+	font-style: oblique;
+	font-size: 12px;
+	font-family: "SimSun";
+	color: #5a5b5b;
+}
+aside div div {
+	float: left;
+	padding: 30px 15px;
+	width: 230px;
+	height: 90px;
+	color: #fff;
+	background-color: #d45d5c;
+}
+aside div div p {
+	float: left;
+	display: inline-block;
+	margin: 0;
+	margin-right: 5px;
+/*	padding-right: 2px;*/
+	font-size: 110px;
+	letter-spacing: 0;
+	line-height: 86px;
+	border-right: solid 2px #fff;
+}
+aside div div span:nth-of-type(1) {
+	font-style: oblique;
+	font-size: 21px;
+	font-family: "SimHei";
+}
+aside div div span:nth-of-type(2) {
+	/*vertical-align: top;第一行上去了第二行挤不上，用了float*/
+	display: inherit;
+	font-size: 12px;
+	font-family: "SimHei";
+}
+aside > div > blockquote {
+	position: relative;/*引号*/
+	top: 20px;
+	left: 15px;
+	margin: 0;
+	padding: 0;
+	font-style: oblique;
+	font-size: 14px;
+	font-family: "SimHei";
+	text-indent: 3em;
+}
+aside > div > blockquote:before {
+	content: open-quote;
+	position: absolute;
+	top: -20px;
+	left: 180px;
+	font-style: normal;
+	font-size: 72px;
+	color: #d45d5c;
+}
+aside > div > blockquote:after {
+	content: close-quote;
+	position: absolute;
+	right: 0px;
+	font-style: normal;
+	font-size: 72px;
+	color: #d45d5c;
+}
+
+/*footer*/
+footer {
+	border-top: solid 1px #938e8c;
+}
+footer span {
+	float: right;
+	font-size: 12px;
+	font-family: "SimHei";
+	color: #d45d5c;
+}
