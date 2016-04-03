@@ -1,0 +1,36 @@
+body {
+	
+}
+.grey {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 400px;
+	height: 200px;
+ 	margin: -100px 0 0 -200px;
+	background-color: #ccc;
+	overflow: hidden;
+}
+.grey img {
+	width: 100px;
+}
+.circle1 {
+	position: absolute;
+	top: -50px;
+	left: -50px;
+}
+.circle2 {
+	position: absolute;
+	bottom: -50px;
+	right: -50px;
+}
+.c1, .c2 {
+	width: 0;
+	height: 0;
+	border: 50px solid #fc0;
+	border-radius: 50%;
+}
+.c1, .c2 {
+	*display: none;/*IE6-7*/
+
+}
